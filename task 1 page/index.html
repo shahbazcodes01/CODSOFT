@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adibas shoes made by shahbaz</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body_items">
+        <div class="item_1">
+            <img src="img 5.png" alt="">
+        </div>
+        <div class="item_2">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="just_do_it">
+            <p>Never
+               Give
+               Up
+            </p>
+        </div>
+    </div>    
+    <div class="container">
+        <nav>
+            <div class="left_nav">
+                <div class="nav_logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="nav_menu">
+                    <ul>
+                        <li>
+                            <a href="#" class="link">HOME</a>
+                            <div class="link_border"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">KIDS</a>
+                            <div class="link_border"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">MEN</a>
+                            <div class="link_border"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">WOMEN</a>
+                            <div class="link_border"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_nav">
+                <div class="nav_cart_box">
+                    <i class="bx bx-cart"></i>
+                </div>
+                <div class="dropdown">
+                    <div class="menu_bars" onclick="myMenuFunction()">
+                        
+                        <div class="nav_dropdown_menu" id="navDropdownMenu">
+                           
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="left_col">
+                <div class="shoe_title">
+                    <p>Adibas Shoes</p>
+                </div>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="shoe_description">
+                    <p>𝓐𝓭𝓲𝓫𝓪𝓼: 𝓦𝓱𝓮𝓻𝓮 𝓢𝓽𝔂𝓵𝓮 𝓜𝓮𝓮𝓽𝓼 𝓟𝓮𝓻𝓯𝓸𝓻𝓶𝓪𝓷𝓬𝓮 𝓪𝓷𝓭 𝓮𝔁𝓹𝓮𝓻𝓲𝓮𝓷𝓬𝓮 𝓾𝓷𝓹𝓪𝓻𝓪𝓵𝓵𝓮𝓵𝓮𝓭 𝓬𝓸𝓶𝓯𝓸𝓻𝓽 𝓪𝓷𝓭 𝓼𝓽𝔂𝓵𝓮 𝔀𝓲𝓽𝓱 𝓮𝓿𝓮𝓻𝔂 𝓼𝓽𝓮𝓹. 𝓷𝓮𝔀 𝓬𝓸𝓷𝓼𝓾𝓶𝓮𝓻 𝔀𝓮𝓫𝓼𝓲𝓽𝓮 - 𝓐𝓭𝓲𝓫𝓪𝓼𝓵𝓲𝓿𝓮.𝓬𝓸𝓶</p>
+                </div>
+                <div class="cart">
+                    <button class="cart_btn">Add To Cart</button>
+                    <p class="price">₹1979</p>
+                </div>
+
+                <div class="shop_box">
+                    <div class="shop_item_container">
+                        <div class="shoe_img_box">
+                             <img src="img 2.png" class="shoe_img">
+                        </div>
+                        <div class="shoe_name_price">
+                             <h3>Adibas Air Max</h3>
+                             <p>₹1699</p>
+                        </div>
+                        <div class="add_to_shop">
+                            <i class="bx bx-cart"></i>
+                        </div>
+                    </div>
+                    <div class="shop_item_container">
+                        <div class="shoe_img_box">
+                             <img src="img 4.png" class="shoe_img">
+                        </div>
+                        <div class="shoe_name_price">
+                             <h3>Adibas Air Force</h3>
+                             <p>₹1729</p>
+                        </div>
+                        <div class="add_to_shop">
+                            <i class="bx bx-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_col">
+                <img src="img.png" class="featured_img" alt="">
+                <div class="shopping_cart_btn">
+                    <i class="bx bx-cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        
+
+    function myMenuFunction() {
+        var i = document.getElementById("navDropdownMenu");
+
+          if(i.className === "nav_dropdown_menu") {
+               i.className += " responsive";
+          } else {
+               i.className = "nav_dropdown_menu";
+          }
+   }
+      
+     </script>
+     
+</body>
+</html>
